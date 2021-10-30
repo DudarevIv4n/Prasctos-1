@@ -42,11 +42,6 @@ namespace Practice_1
             var result = Calculation.GetMinimun(integer);
             outputSum.Text = result.minimum.ToString();
             outputFull.Text = result.numbers;
-    }
-
-        private void InputValue_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }
